@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanCoTuong", "BanCoTuong\BanCoTuong.csproj", "{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libs", "Libs\Libs.csproj", "{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39DAFFC8-FCD8-4E3E-A433-E72F44FFEF0B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Căn chỉnh thanh điều hướng trên cùng */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Căn chỉnh các nút ở giữa màn hình */
+.main-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn-lg {
+    margin: 10px;
+}
+
+/* Cài đặt bảng cờ tướng */
+.chess-board {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    grid-template-rows: repeat(10, 50px);
+    width: 450px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+    .chess-board .cell {
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+
+.cell[data-row="0"], .cell[data-row="9"] {
+    background-color: #e6e6e6;
+}
+
+.cell[data-row="4"] {
+    background-color: #cccccc;
+}

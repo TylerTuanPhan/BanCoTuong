@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "BanCoTuong.Controllers.api.ChessController",
+    "Method": "getChessBoard",
+    "RelativePath": "api/Chess/loadChessBoard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanCoTuong.Controllers.api.RoomController",
+    "Method": "getRoomList",
+    "RelativePath": "api/Room/get-room",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanCoTuong.Controllers.api.RoomController",
+    "Method": "insertRoom",
+    "RelativePath": "api/Room/insert-room",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "room",
+        "Type": "Libs.Entity.Room",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,14 @@
+C:\Users\PC\source\repos\BanCoTuong\Libs\bin\Debug\net8.0\Libs.deps.json
+C:\Users\PC\source\repos\BanCoTuong\Libs\bin\Debug\net8.0\Libs.dll
+C:\Users\PC\source\repos\BanCoTuong\Libs\bin\Debug\net8.0\Libs.pdb
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.AssemblyInfo.cs
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.dll
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\refint\Libs.dll
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.pdb
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\ref\Libs.dll
+C:\Users\PC\source\repos\BanCoTuong\Libs\bin\Debug\net8.0\Libs.runtimeconfig.json
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.genruntimeconfig.cache
