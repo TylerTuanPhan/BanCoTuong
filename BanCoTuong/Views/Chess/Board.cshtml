@@ -1,0 +1,343 @@
+﻿@{
+    ViewData["Title"] = "Board";
+}
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+
+<style>
+    .chessboard {
+        width: 850px;
+        height: 850px;
+        background-image: url("/Images/bancotuong.jpg");
+        position: absolute;
+    }
+
+    .chessnode {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+
+    .chessimgnode {
+        width: 50px;
+        height: 50px;
+    }
+</style>
+
+<div id="app" style="min-height:800px">
+    <div class="chessboard">
+        <div v-for="item in chessNode" class="chessnode"
+             v-on:dragstart="dragStart"
+             v-on:dragend="dragEnd"
+             :id="item.id" v-bind:style="{ display: item.visible, top: item.top + 'px', left: item.left + 'px' }">
+            <img :src="'/' + item.src" class="chessimgnode" />
+        </div>
+    </div>
+</div>
+
+<script>
+    var matrix = [];
+    var app = new Vue({
+        el: '#app',
+        data: {
+            chessNode: [],
+            top: 0,
+            left: 0
+        },
+        methods: {
+            getChessNode() {
+                axios.get('/api/chess/loadChessBoard')
+                    .then((response) => {
+                        this.chessNode = response.data.chessNode;
+                        matrix = response.data.maxtrix;
+                    });
+            },
+            getIndexByTopLef(top, left) {
+                for (var i = 0; i < matrix.length; i++) {
+                    for (var j = 0; j < matrix[i].length; j++) {
+                        if (Math.abs(matrix[i][j].top - top) < 20 && Math.abs(matrix[i][j].left - left) < 20) {
+                            return { i: i, j: j, id: matrix[i][j].id };
+                        }
+                    }
+                }
+                return null;
+            },
+            dragStart(event) {
+                this.top = event.clientY;
+                this.left = event.clientX;
+            },
+               dragEnd(event) {
+                    var id = event.currentTarget.id;
+                    var moveX = event.clientX - this.left;
+                    var moveY = event.clientY - this.top;
+                    moveX = moveX + event.currentTarget.offsetLeft;
+                    moveY = moveY + event.currentTarget.offsetTop;
+
+                    var nodeStart = this.getIndexByTopLef(event.currentTarget.offsetTop, event.currentTarget.offsetLeft, matrix);
+                    var nodeEnd = this.getIndexByTopLef(moveY, moveX, matrix);
+                    if (nodeEnd == null) {
+                        return;
+                    }
+
+                    var objRemove = null;
+                    // Xử lý cho quân Tốt
+                    if (id.indexOf('tot') >= 0) {
+                        var gapI = nodeEnd.i - nodeStart.i; // Sự chênh lệch hàng
+                        var gapJ = nodeEnd.j - nodeStart.j; // Sự chênh lệch cột
+
+                        // Quân Tốt chưa qua sông
+                        if (nodeStart.i < 5) {
+                            // Tốt có thể di chuyển 1 ô lên
+                            if (gapI === 1 && gapJ === 0) {
+                                // Không được ăn quân đối phương ở phía trước
+                                if (nodeEnd.id !== "") {
+                                    return; // Không thể di chuyển vào ô có quân
+                                }
+                            } else {
+                                return; // Di chuyển không hợp lệ
+                            }
+                        } else { // Quân Tốt đã qua sông
+                            // Tốt có thể di chuyển 1 ô lên hoặc 1 ô ngang
+                            if ((gapI === 1 && gapJ === 0) || (gapI === 0 && gapJ === 1)) {
+                                // Nếu di chuyển ngang, không được ăn quân cùng màu
+                                if (nodeEnd.id !== "" && nodeEnd.id.indexOf('do') > 0) {
+                                    return; // Không được ăn quân đỏ
+                                }
+                                // Nếu có quân đối thủ, ghi nhận quân bị ăn
+                                if (nodeEnd.id !== "") {
+                                    objRemove = { id: nodeEnd.id };
+                                }
+                            } else {
+                                return; // Di chuyển không hợp lệ
+                            }
+                        }
+                    }
+                    // Xử lý cho quân Pháo
+                    if (id.indexOf('phao') >= 0) {
+                        var gapI = Math.abs(nodeEnd.i - nodeStart.i);
+                        var gapJ = Math.abs(nodeEnd.j - nodeStart.j);
+
+                        // Pháo có thể di chuyển theo chiều dọc hoặc chiều ngang
+                        if (gapI !== 0 && gapJ !== 0) return; // Di chuyển không hợp lệ
+
+                        // Kiểm tra có quân chắn không
+                        var step = gapI !== 0 ? Math.sign(nodeEnd.i - nodeStart.i) : Math.sign(nodeEnd.j - nodeStart.j);
+                        var obstruction = 0;
+
+                        if (gapI !== 0) { // Di chuyển dọc
+                            for (var i = nodeStart.i + step; i !== nodeEnd.i; i += step) {
+                                if (matrix[i][nodeStart.j].id !== "") {
+                                    obstruction++;
+                                }
+                            }
+                        } else { // Di chuyển ngang
+                            for (var j = nodeStart.j + step; j !== nodeEnd.j; j += step) {
+                                if (matrix[nodeStart.i][j].id !== "") {
+                                    obstruction++;
+                                }
+                            }
+                        }
+
+                        // Nếu có quân chắn, Pháo phải nhảy qua 1 quân
+                        if (obstruction > 0 && obstruction < 1) return;
+
+                        // Không cho phép ăn quân đỏ
+                        if (nodeEnd.id !== "" && nodeEnd.id.indexOf('do') > 0) return;
+
+                        // Ghi nhận quân bị ăn
+                        if (nodeEnd.id !== "") {
+                            objRemove = { id: nodeEnd.id };
+                        }
+                    }
+                    // End xử lý quân Pháo
+
+                    // Xử lý cho quân Xe
+                    if (id.indexOf('xe') >= 0) {
+                        var gapI = Math.abs(nodeEnd.i - nodeStart.i);
+                        var gapJ = Math.abs(nodeEnd.j - nodeStart.j);
+
+                        // Xe có thể di chuyển theo chiều dọc hoặc chiều ngang
+                        if (gapI !== 0 && gapJ !== 0) return; // Di chuyển không hợp lệ
+
+                        // Kiểm tra có quân chắn không
+                        var obstruction = 0;
+
+                        if (gapI !== 0) { // Di chuyển dọc
+                            for (var i = nodeStart.i + Math.sign(nodeEnd.i - nodeStart.i); i !== nodeEnd.i; i += Math.sign(nodeEnd.i - nodeStart.i)) {
+                                if (matrix[i][nodeStart.j].id !== "") {
+                                    obstruction++;
+                                }
+                            }
+                        } else { // Di chuyển ngang
+                            for (var j = nodeStart.j + Math.sign(nodeEnd.j - nodeStart.j); j !== nodeEnd.j; j += Math.sign(nodeEnd.j - nodeStart.j)) {
+                                if (matrix[nodeStart.i][j].id !== "") {
+                                    obstruction++;
+                                }
+                            }
+                        }
+
+                        // Không cho phép ăn quân đỏ
+                        if (nodeEnd.id !== "" && nodeEnd.id.indexOf('do') > 0) return;
+
+                        // Ghi nhận quân bị ăn
+                        if (nodeEnd.id !== "") {
+                            objRemove = { id: nodeEnd.id };
+                        }
+                    }
+                    // End xử lý quân Xe
+
+                    // Xử lý cho quân Sĩ
+                    if (id.indexOf('si') >= 0) {
+                        var gapI = Math.abs(nodeEnd.i - nodeStart.i);
+                        var gapJ = Math.abs(nodeEnd.j - nodeStart.j);
+
+                        // Sĩ chỉ có thể di chuyển chéo 1 ô
+                        if (gapI !== 1 || gapJ !== 1) return;
+
+                        // Sĩ không được ra ngoài khu vực của mình
+                        if (nodeEnd.i < 7 || nodeEnd.i > 9 || nodeEnd.j < 3 || nodeEnd.j > 5) {
+                            return;
+                        }
+
+                        // Không cho phép ăn quân đỏ
+                        if (nodeEnd.id !== "" && nodeEnd.id.indexOf('do') > 0) return;
+
+                        // Ghi nhận quân bị ăn
+                        if (nodeEnd.id !== "") {
+                            objRemove = { id: nodeEnd.id };
+                        }
+                    }
+                    // End xử lý quân Sĩ
+
+                    // Xử lý cho quân Hậu
+                    if (id.indexOf('hau') >= 0) {
+                        var gapI = Math.abs(nodeEnd.i - nodeStart.i);
+                        var gapJ = Math.abs(nodeEnd.j - nodeStart.j);
+
+                        // Hậu có thể di chuyển giống như Xe hoặc Pháo
+                        if (gapI === 0 || gapJ === 0 || gapI === gapJ) {
+                            var obstruction = 0;
+
+                            if (gapI === 0) { // Di chuyển ngang
+                                for (var j = nodeStart.j + Math.sign(nodeEnd.j - nodeStart.j); j !== nodeEnd.j; j += Math.sign(nodeEnd.j - nodeStart.j)) {
+                                    if (matrix[nodeStart.i][j].id !== "") {
+                                        obstruction++;
+                                    }
+                                }
+                            } else if (gapJ === 0) { // Di chuyển dọc
+                                for (var i = nodeStart.i + Math.sign(nodeEnd.i - nodeStart.i); i !== nodeEnd.i; i += Math.sign(nodeEnd.i - nodeStart.i)) {
+                                    if (matrix[i][nodeStart.j].id !== "") {
+                                        obstruction++;
+                                    }
+                                }
+                            } else { // Di chuyển chéo
+                                var stepI = Math.sign(nodeEnd.i - nodeStart.i);
+                                var stepJ = Math.sign(nodeEnd.j - nodeStart.j);
+                                var limit = Math.abs(nodeEnd.i - nodeStart.i);
+
+                                for (var k = 1; k < limit; k++) {
+                                    if (matrix[nodeStart.i + k * stepI][nodeStart.j + k * stepJ].id !== "") {
+                                        obstruction++;
+                                    }
+                                }
+                            }
+
+                            // Không được ăn quân đỏ
+                            if (nodeEnd.id !== "" && nodeEnd.id.indexOf('do') > 0) return;
+
+                            // Ghi nhận quân bị ăn
+                            if (nodeEnd.id !== "") {
+                                objRemove = { id: nodeEnd.id };
+                            }
+                        } else {
+                            return; // Di chuyển không hợp lệ
+                        }
+                    }
+                    // End xử lý quân Hậu
+
+                    // Xử lý cho quân Tướng
+                    if (id.indexOf('tuong') >= 0) {
+                        // Kiểm tra di chuyển hợp lệ
+                        var gapI = Math.abs(nodeEnd.i - nodeStart.i);
+                        var gapJ = Math.abs(nodeEnd.j - nodeStart.j);
+                        // Quân Tướng chỉ có thể di chuyển một ô theo chiều ngang hoặc chiều dọc
+                        if (!((gapI == 1 && gapJ == 0) || (gapI == 0 && gapJ == 1))) {
+                            return;
+                        }
+                        // Kiểm tra quân Tướng không ra ngoài khu vực của mình
+                        if (nodeEnd.i < 7 || nodeEnd.i > 9 || nodeEnd.j < 3 || nodeEnd.j > 5) {
+                            return;
+                        }
+        
+                        if (nodeEnd.id != "" && nodeEnd.id.indexOf('do') > 0) {
+                            return; // Không được ăn quân đỏ
+                        } else {
+                            if (nodeEnd.id != "") // nếu có quân đối thủ
+                            {
+                                objRemove = { id: nodeEnd.id };
+                            }
+                        }
+                    }
+                    // End xử lý quân Tướng
+
+                    // Xử lý quân Mã
+                    if (id.indexOf('ma') >= 0) {
+                        const gapI = Math.abs(nodeEnd.i - nodeStart.i);
+                        const gapJ = Math.abs(nodeEnd.j - nodeStart.j);
+                        if (!((gapI === 1 && gapJ === 2) || (gapJ === 1 && gapI === 2))) return; // Kiểm tra di chuyển hợp lệ
+
+                        if (gapI === 1 && gapJ === 2) {
+                            if (nodeEnd.j > nodeStart.j && matrix[nodeStart.i][nodeStart.j + 1].id !== "") return; // Kiểm tra quân chắn
+                            if (nodeEnd.j < nodeStart.j && matrix[nodeStart.i][nodeStart.j - 1].id !== "") return; // Kiểm tra quân chắn
+                        }
+
+                        if (gapI === 2 && gapJ === 1) {
+                            if (nodeEnd.i > nodeStart.i && matrix[nodeStart.i + 1][nodeStart.j].id !== "") return;
+                            if (nodeEnd.i < nodeStart.i && matrix[nodeStart.i - 1][nodeStart.j].id !== "") return;
+                        }
+
+                        if (nodeEnd.id !== "" && nodeEnd.id.indexOf('do') > 0) return; // Không cho phép ăn quân đỏ
+
+                        if (nodeEnd.id !== "") objRemove = { id: nodeEnd.id }; // Ghi nhận quân bị ăn
+                    }
+
+                // Xử lý gửi yêu cầu di chuyển
+                let params = new URL(document.location.toString()).searchParams;
+                let roomId = params.get("roomId");
+                var para = [{ id: id, fromi: nodeStart.i, fromj: nodeStart.j, toi: nodeEnd.i, toj: nodeEnd.j }];
+                if (objRemove != null) para.push(objRemove);
+
+                axios.post(`/api/chess/move-check-node?roomId=${roomId}`, para)
+                    .then((response) => {
+                        // Có thể xử lý phản hồi nếu cần
+                    });
+            }
+        },
+        mounted: function () {
+            this.getChessNode();
+            let params = new URL(document.location.toString()).searchParams;
+            let roomId = params.get("roomId");
+            var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub?roomId=" + roomId).build();
+            
+            connection.on("ReceiveChessMove", (message) => {
+                var response = JSON.parse(message);
+                matrix[response[0].fromi][response[0].fromj].id = ""; // Cập nhật vị trí ban đầu
+                var nodeEnd = matrix[response[0].toi][response[0].toj];
+                nodeEnd.id = response[0].id; // Cập nhật vị trí mới
+
+                var obj = document.getElementById(response[0].id);
+                obj.style.top = nodeEnd.top + 'px';
+                obj.style.left = nodeEnd.left + 'px';
+
+                // Ẩn quân bị ăn nếu có
+                if (response.length > 1) {
+                    var temp = document.getElementById(response[1].id);
+                    if (temp) temp.style.display = "none";
+                }
+            });
+
+            connection.start().catch((err) => console.error(err.toString()));
+        }
+    });
+</script>

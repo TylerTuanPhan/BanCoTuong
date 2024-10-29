@@ -12,3 +12,4 @@ C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\ref\Libs.dll
 C:\Users\PC\source\repos\BanCoTuong\Libs\bin\Debug\net8.0\Libs.runtimeconfig.json
 C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.csproj.AssemblyReference.cache
 C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.genruntimeconfig.cache
+C:\Users\PC\source\repos\BanCoTuong\Libs\obj\Debug\net8.0\Libs.sourcelink.json

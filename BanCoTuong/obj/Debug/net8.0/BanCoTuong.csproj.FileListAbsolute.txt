@@ -292,3 +292,4 @@ C:\Users\PC\source\repos\BanCoTuong\BanCoTuong\bin\Debug\net8.0\runtimes\win-arm
 C:\Users\PC\source\repos\BanCoTuong\BanCoTuong\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\PC\source\repos\BanCoTuong\BanCoTuong\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\PC\source\repos\BanCoTuong\BanCoTuong\obj\Debug\net8.0\BanCoTuong.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC\source\repos\BanCoTuong\BanCoTuong\obj\Debug\net8.0\BanCoTuong.sourcelink.json

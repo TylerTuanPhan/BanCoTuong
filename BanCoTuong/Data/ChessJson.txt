@@ -1,4 +1,6 @@
-﻿[
+[
+	{ "id": "1", "top": 61, "left": 106 },
+    { "id": "2", "top": 61, "left": 180 },
 	{"id": "xedo1", "src":"Images/xedo1.svg", "top":61, "left":106, "visible": "inline"},
 	{"id": "mado1", "src":"Images/mado1.svg", "top":61, "left":180, "visible": "inline"},
 	{"id": "tuongdo1", "src":"Images/tuongdo1.svg", "top":61, "left":254, "visible": "inline"},
@@ -33,5 +35,4 @@
 	{"id": "siden1", "src":"Images/siden1.svg", "top":727, "left":328, "visible": "inline"},
 	{"id": "siden2", "src":"Images/siden2.svg", "top":727, "left":476, "visible": "inline"},
 	{"id": "chutuongden", "src":"Images/chutuongden.svg", "top":727, "left":401, "visible": "inline"}
-	
-]
+]	

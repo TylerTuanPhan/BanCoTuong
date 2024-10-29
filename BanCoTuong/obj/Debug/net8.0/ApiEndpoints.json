@@ -1,9 +1,45 @@
 [
   {
     "ContainingType": "BanCoTuong.Controllers.api.ChessController",
-    "Method": "getChessBoard",
+    "Method": "Board",
+    "RelativePath": "api/Chess/Board",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanCoTuong.Controllers.api.ChessController",
+    "Method": "GetChessBoard",
     "RelativePath": "api/Chess/loadChessBoard",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanCoTuong.Controllers.api.ChessController",
+    "Method": "MoveChess",
+    "RelativePath": "api/Chess/movePiece",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "move",
+        "Type": "BanCoTuong.Models.MoveChess",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BanCoTuong.Controllers.api.ChessController",
+    "Method": "ResetChessBoard",
+    "RelativePath": "api/Chess/resetChessBoard",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

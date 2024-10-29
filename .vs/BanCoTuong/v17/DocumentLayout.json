@@ -3,28 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\controllers\\api\\chesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\controllers\\api\\chesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\migrations\\20241022092545_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\migrations\\20241022092545_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\models\\chessnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\models\\chessnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\models\\pointmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\models\\pointmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\data\\chessjson.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\data\\chessjson.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\views\\chess\\board.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\views\\chess\\board.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\models\\movechess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\models\\movechess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\entity\\chessnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\entity\\chessnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\entity\\movechess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\entity\\movechess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\services\\chessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\services\\chessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\controllers\\api\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\controllers\\api\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\entity\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\entity\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\entity\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\entity\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\data\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\data\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\views\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\views\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\views\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\views\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\bancotuong\\views\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4EFDDE5-DB59-472F-8DFF-6E38F5C95C73}|BanCoTuong\\BanCoTuong.csproj|solutionrelative:bancotuong\\views\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|c:\\users\\pc\\source\\repos\\bancotuong\\libs\\migrations\\20241022092545_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F0743CF-F005-44BB-86C4-4EB61FBE1C2F}|Libs\\Libs.csproj|solutionrelative:libs\\migrations\\20241022092545_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +134,307 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "BanCoTuong\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "BanCoTuong\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T09:32:16.467Z",
+              "DocumentIndex": 3,
+              "Title": "ChessNode.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Models\\ChessNode.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Models\\ChessNode.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Models\\ChessNode.cs",
+              "RelativeToolTip": "BanCoTuong\\Models\\ChessNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:46:22.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "BanCoTuong\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "BanCoTuong\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:32:06.639Z",
+              "DocumentIndex": 7,
+              "Title": "Board.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Chess\\Board.cshtml",
+              "RelativeDocumentMoniker": "BanCoTuong\\Views\\Chess\\Board.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Chess\\Board.cshtml",
+              "RelativeToolTip": "BanCoTuong\\Views\\Chess\\Board.cshtml",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAAAA8BAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:48:40.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChessJson.txt",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Data\\ChessJson.txt",
+              "RelativeDocumentMoniker": "BanCoTuong\\Data\\ChessJson.txt",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Data\\ChessJson.txt",
+              "RelativeToolTip": "BanCoTuong\\Data\\ChessJson.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-29T05:43:15.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ChessController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Controllers\\api\\ChessController.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Controllers\\api\\ChessController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Controllers\\api\\ChessController.cs",
+              "RelativeToolTip": "BanCoTuong\\Controllers\\api\\ChessController.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAUwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:49:38.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PointModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Models\\PointModel.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Models\\PointModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Models\\PointModel.cs",
+              "RelativeToolTip": "BanCoTuong\\Models\\PointModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:46:54.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Data\\IRepository.cs",
+              "RelativeDocumentMoniker": "Libs\\Data\\IRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Data\\IRepository.cs",
+              "RelativeToolTip": "Libs\\Data\\IRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:26:54.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanCoTuong\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BanCoTuong\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:14:50.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "BanCoTuong\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "BanCoTuong\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T05:46:19.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MoveChess.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Models\\MoveChess.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Models\\MoveChess.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Models\\MoveChess.cs",
+              "RelativeToolTip": "BanCoTuong\\Models\\MoveChess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:46:42.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "BanCoTuong\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:46:21.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChessNode.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Entity\\ChessNode.cs",
+              "RelativeDocumentMoniker": "Libs\\Entity\\ChessNode.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Entity\\ChessNode.cs",
+              "RelativeToolTip": "Libs\\Entity\\ChessNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:12:33.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MoveChess.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Entity\\MoveChess.cs",
+              "RelativeDocumentMoniker": "Libs\\Entity\\MoveChess.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Entity\\MoveChess.cs",
+              "RelativeToolTip": "Libs\\Entity\\MoveChess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:11:38.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Libs\\Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "Libs\\Repositories\\RoomRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:25:43.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChessService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Services\\ChessService.cs",
+              "RelativeDocumentMoniker": "Libs\\Services\\ChessService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Services\\ChessService.cs",
+              "RelativeToolTip": "Libs\\Services\\ChessService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:20:37.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Controllers\\api\\RoomController.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Controllers\\api\\RoomController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Controllers\\api\\RoomController.cs",
+              "RelativeToolTip": "BanCoTuong\\Controllers\\api\\RoomController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:52:27.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Entity\\Room.cs",
+              "RelativeDocumentMoniker": "Libs\\Entity\\Room.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Entity\\Room.cs",
+              "RelativeToolTip": "Libs\\Entity\\Room.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:26:52.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Entity\\Player.cs",
+              "RelativeDocumentMoniker": "Libs\\Entity\\Player.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Entity\\Player.cs",
+              "RelativeToolTip": "Libs\\Entity\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:14:06.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\appsettings.json",
+              "RelativeDocumentMoniker": "BanCoTuong\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\appsettings.json",
+              "RelativeToolTip": "BanCoTuong\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-23T11:43:22.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "BanCoTuong\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T05:45:50.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BanCoTuong\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:49:34.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Libs\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Libs\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:18:35.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Data\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Libs\\Data\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Data\\RepositoryBase.cs",
+              "RelativeToolTip": "Libs\\Data\\RepositoryBase.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAkwGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:17:50.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Program.cs",
+              "RelativeDocumentMoniker": "BanCoTuong\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Program.cs",
+              "RelativeToolTip": "BanCoTuong\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:42:42.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "BanCoTuong\\ScaffoldingReadMe.txt",
@@ -72,12 +442,83 @@
               "RelativeToolTip": "BanCoTuong\\ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-22T09:32:00.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T09:32:00.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "BanCoTuong\\Views\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "BanCoTuong\\Views\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T05:46:26.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BanCoTuong\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BanCoTuong\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T05:46:49.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BanCoTuong\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BanCoTuong\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T05:46:47.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BanCoTuong\\Views\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "BanCoTuong\\Views\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T05:46:28.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BanCoTuong\\Views\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Views\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "BanCoTuong\\Views\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:46:13.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Libs\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Libs\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:17:53.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "20241022092545_initdb.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\Migrations\\20241022092545_initdb.cs",
               "RelativeDocumentMoniker": "Libs\\Migrations\\20241022092545_initdb.cs",
@@ -85,34 +526,7 @@
               "RelativeToolTip": "Libs\\Migrations\\20241022092545_initdb.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:25:46.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Program.cs",
-              "RelativeDocumentMoniker": "BanCoTuong\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\BanCoTuong\\Program.cs",
-              "RelativeToolTip": "BanCoTuong\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:24:06.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Libs\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BanCoTuong\\Libs\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Libs\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:45:42.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T09:25:46.368Z"
             }
           ]
         }

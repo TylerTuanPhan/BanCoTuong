@@ -1,4 +1,4 @@
-using BanCoTuong.Models;
+﻿using BanCoTuong.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -28,7 +28,10 @@ namespace BanCoTuong.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
+        public IActionResult Board()
+        {
+            return View(); // Trả về View tương ứng
+        }
 
     }
 }

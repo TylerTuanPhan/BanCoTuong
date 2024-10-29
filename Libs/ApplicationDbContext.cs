@@ -1,16 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Libs.Entity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Libs.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Libs
 {
-    public class ApplicationDbContext: IdentityDbContext
-    { 
+    public class ApplicationDbContext : IdentityDbContext
+    {
         public DbSet<Room> Room { get; set; }
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) 
-        { 
-
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
         }
-
     }
 }
