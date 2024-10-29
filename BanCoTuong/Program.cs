@@ -1,6 +1,7 @@
 using BanCoTuong.Hubs;
 using Libs;
 using Libs.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +16,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     //options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 
 }, ServiceLifetime.Transient);
-
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddDefaultUI()
+    .AddDefaultTokenProviders()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddRazorPages();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
